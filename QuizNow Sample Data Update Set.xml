@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-01-25 16:44:58">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>QuizNow Sample Data</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>01e5a644478c0210638eaa42736d435b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>84c86a08478c0210638eaa42736d4314</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_7cb232c5471e7150638eaa42736d43a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>5 Years</choice><correct_answer>false</correct_answer><number>QZQC0001007</number><order>100</order><question display_value="How long has Brad been doing ServiceNow?">4a52fa85471e7150638eaa42736d43cd</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:12:37</sys_created_on><sys_id>7cb232c5471e7150638eaa42736d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>brad.tilton</sys_updated_by><sys_updated_on>2023-11-02 20:12:37</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>1303661256</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>04c86a08478c0210638eaa42736d4316</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177a2940000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>5 Years</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>37f5aa446d8c021009a516a123639572</update_guid>
+<update_guid_history>37f5aa446d8c021009a516a123639572:1303661256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_0ea272c5471e7150638eaa42736d4331</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>1 Year</choice><correct_answer>false</correct_answer><number>QZQC0001006</number><order>100</order><question display_value="How long has Brad been doing ServiceNow?">4a52fa85471e7150638eaa42736d43cd</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:12:25</sys_created_on><sys_id>0ea272c5471e7150638eaa42736d4331</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>brad.tilton</sys_updated_by><sys_updated_on>2023-11-02 20:12:25</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>-1805689536</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>08c86a08478c0210638eaa42736d4315</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177a2150000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>1 Year</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>73f5aa44c98c02105b9e6a8f6cde116b</update_guid>
+<update_guid_history>73f5aa44c98c02105b9e6a8f6cde116b:-1805689536</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_instance_aaf453cf47ffb150638eaa42736d4398</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_instance"><x_snc_quiznow_quiz_instance action="INSERT_OR_UPDATE"><access_code>XYZA</access_code><number>QZINST0001002</number><quiz display_value="Brad's Awesome Quiz">6a613641471e7150638eaa42736d4319</quiz><state>pending</state><sys_created_by>jon.lind</sys_created_by><sys_created_on>2024-01-22 17:24:20</sys_created_on><sys_id>aaf453cf47ffb150638eaa42736d4398</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 17:25:16</sys_updated_on><winner/></x_snc_quiznow_quiz_instance></record_update>]]></payload>
+<payload_hash>1677662965</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>0cc86a08478c0210638eaa42736d4314</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177ee460000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>QZINST0001002</target_name>
+<type>Quiz instance</type>
+<update_domain>global</update_domain>
+<update_guid>2816ea44e38c0210f0b1f782a3436340</update_guid>
+<update_guid_history>2816ea44e38c0210f0b1f782a3436340:1677662965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_5cc2b2c5471e7150638eaa42736d4378</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>10 Years</choice><correct_answer>false</correct_answer><number>QZQC0001008</number><order>100</order><question display_value="How long has Brad been doing ServiceNow?">4a52fa85471e7150638eaa42736d43cd</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:12:48</sys_created_on><sys_id>5cc2b2c5471e7150638eaa42736d4378</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>brad.tilton</sys_updated_by><sys_updated_on>2023-11-02 20:12:48</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>-2015977909</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>40c86a08478c0210638eaa42736d4316</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177a2540000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>10 Years</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>fbf5aa44b08c0210e32f348c1683df6e</update_guid>
+<update_guid_history>fbf5aa44b08c0210e32f348c1683df6e:-2015977909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_0222f685471e7150638eaa42736d43b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>Really good 2</choice><correct_answer>false</correct_answer><number>QZQC0001004</number><order>100</order><question display_value="How good is Brad's quiz?">2c813e45471e7150638eaa42736d434f</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:10:11</sys_created_on><sys_id>0222f685471e7150638eaa42736d43b2</sys_id><sys_mod_count>21</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 19:55:21</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>-2018843070</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>44c86a08478c0210638eaa42736d4315</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d41775f330000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>Really good 2</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>6be52a44008c0210e7efe4aac7a46ed4</update_guid>
+<update_guid_history>6be52a44008c0210e7efe4aac7a46ed4:-2018843070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_6a613641471e7150638eaa42736d4319</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz"><x_snc_quiznow_quiz action="INSERT_OR_UPDATE"><active>true</active><name>Brad's Awesome Quiz</name><number>QZ0001001</number><order>100</order><owner display_value="Brad Tilton">36417bb847427110638eaa42736d43c8</owner><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:07:11</sys_created_on><sys_id>6a613641471e7150638eaa42736d4319</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>brad.tilton</sys_updated_by><sys_updated_on>2024-01-19 16:28:36</sys_updated_on></x_snc_quiznow_quiz></record_update>]]></payload>
+<payload_hash>-915184560</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>48c86a08478c0210638eaa42736d4314</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4182565c0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>Brad's Awesome Quiz</target_name>
+<type>Quiz</type>
+<update_domain>global</update_domain>
+<update_guid>07a82608638c02107f86de57d34359f6</update_guid>
+<update_guid_history>07a82608638c02107f86de57d34359f6:-915184560,fcb52644818c0210140b59fc29a120e7:-915184560</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_4a52fa85471e7150638eaa42736d43cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question"><x_snc_quiznow_quiz_question action="INSERT_OR_UPDATE"><correct_answer display_value="15 Years">cbc2f2c5471e7150638eaa42736d435a</correct_answer><image/><number>QZQ0001002</number><order>200</order><question>How long has Brad been doing ServiceNow?</question><quiz display_value="Brad's Awesome Quiz">6a613641471e7150638eaa42736d4319</quiz><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:12:06</sys_created_on><sys_id>4a52fa85471e7150638eaa42736d43cd</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 21:52:47</sys_updated_on></x_snc_quiznow_quiz_question></record_update>]]></payload>
+<payload_hash>-2136834885</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>80c86a08478c0210638eaa42736d4315</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177360c0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>How long has Brad been doing ServiceNow?</target_name>
+<type>Quiz question</type>
+<update_domain>global</update_domain>
+<update_guid>85e52a444b8c021045fa8547982713b5</update_guid>
+<update_guid_history>85e52a444b8c021045fa8547982713b5:-2136834885</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_cbc2f2c5471e7150638eaa42736d435a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>15 Years</choice><correct_answer>true</correct_answer><number>QZQC0001009</number><order>100</order><question display_value="How long has Brad been doing ServiceNow?">4a52fa85471e7150638eaa42736d43cd</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:13:01</sys_created_on><sys_id>cbc2f2c5471e7150638eaa42736d435a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>brad.tilton</sys_updated_by><sys_updated_on>2024-01-22 15:52:20</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>-779212414</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>88c86a08478c0210638eaa42736d4316</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d4177a2db0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>15 Years</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>33f5aa444c8c0210f71924da043c0ab4</update_guid>
+<update_guid_history>33f5aa444c8c0210f71924da043c0ab4:-779212414</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_54323a85471e7150638eaa42736d438e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>Insanely good</choice><correct_answer>false</correct_answer><number>QZQC0001005</number><order>300</order><question display_value="How good is Brad's quiz?">2c813e45471e7150638eaa42736d434f</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:10:22</sys_created_on><sys_id>54323a85471e7150638eaa42736d438e</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 21:53:45</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>1868562723</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>8cc86a08478c0210638eaa42736d4315</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d41775fbc0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>Insanely good</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>63e56a44048c02109eb912b2401336c8</update_guid>
+<update_guid_history>63e56a44048c02109eb912b2401336c8:1868562723</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_bfd17285471e7150638eaa42736d43f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>Kinda good</choice><correct_answer>false</correct_answer><number>QZQC0001002</number><order>400</order><question display_value="How good is Brad's quiz?">2c813e45471e7150638eaa42736d434f</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:09:43</sys_created_on><sys_id>bfd17285471e7150638eaa42736d43f9</sys_id><sys_mod_count>23</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 21:52:31</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>607466433</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>c4c86a08478c0210638eaa42736d4316</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d41775ffd0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>Kinda good</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>abe56a44c28c0210e9a1dbc2fdfdb4cb</update_guid>
+<update_guid_history>abe56a44c28c0210e9a1dbc2fdfdb4cb:607466433</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_choice_5312b685471e7150638eaa42736d43ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question_choice"><x_snc_quiznow_quiz_question_choice action="INSERT_OR_UPDATE"><choice>Pretty good</choice><correct_answer>true</correct_answer><number>QZQC0001003</number><order>200</order><question display_value="How good is Brad's quiz?">2c813e45471e7150638eaa42736d434f</question><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:10:02</sys_created_on><sys_id>5312b685471e7150638eaa42736d43ed</sys_id><sys_mod_count>26</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 21:53:45</sys_updated_on></x_snc_quiznow_quiz_question_choice></record_update>]]></payload>
+<payload_hash>792950346</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>c8c86a08478c0210638eaa42736d4315</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d41775f750000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>Pretty good</target_name>
+<type>Quiz question choice</type>
+<update_domain>global</update_domain>
+<update_guid>e3e52a44bf8c02102aa1fcfc1abb1bd8</update_guid>
+<update_guid_history>e3e52a44bf8c02102aa1fcfc1abb1bd8:792950346</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_quiznow_quiz_question_2c813e45471e7150638eaa42736d434f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_quiznow_quiz_question"><x_snc_quiznow_quiz_question action="INSERT_OR_UPDATE"><correct_answer display_value="Pretty good">5312b685471e7150638eaa42736d43ed</correct_answer><image/><number>QZQ0001001</number><order>100</order><question>How good is Brad's quiz?</question><quiz display_value="Brad's Awesome Quiz">6a613641471e7150638eaa42736d4319</quiz><sys_created_by>brad.tilton</sys_created_by><sys_created_on>2023-11-02 20:07:27</sys_created_on><sys_id>2c813e45471e7150638eaa42736d434f</sys_id><sys_mod_count>17</sys_mod_count><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2024-01-22 21:53:45</sys_updated_on></x_snc_quiznow_quiz_question></record_update>]]></payload>
+<payload_hash>98265357</payload_hash>
+<remote_update_set display_value="QuizNow Sample Data">84c86a08478c0210638eaa42736d4314</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jon.lind</sys_created_by>
+<sys_created_on>2024-01-25 16:44:58</sys_created_on>
+<sys_id>ccc86a08478c0210638eaa42736d4314</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d417735cb0000001</sys_recorded_at>
+<sys_updated_by>jon.lind</sys_updated_by>
+<sys_updated_on>2024-01-25 16:44:58</sys_updated_on>
+<table/>
+<target_name>How good is Brad's quiz?</target_name>
+<type>Quiz question</type>
+<update_domain>global</update_domain>
+<update_guid>c9e5a644a28c0210d02aa5da1b6c5a5c</update_guid>
+<update_guid_history>c9e5a644a28c0210d02aa5da1b6c5a5c:98265357</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
