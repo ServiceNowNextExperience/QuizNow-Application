@@ -75,6 +75,49 @@
                             },
                             {
                                 "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_2",
+                                "elementLabel": "Quiz Name",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h2"
+                                    },
+                                    "text": {
+                                        "binding": {
+                                            "address": [
+                                                "get_quiz_instance",
+                                                "output",
+                                                "data",
+                                                "xSncQuiznow",
+                                                "quizifier",
+                                                "getQuizInstanceByAccessCode",
+                                                "quiz",
+                                                "name"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "bb0f92e8d7eff1590624bfe69d316f23",
                                     "type": "MACROPONENT"
                                 },
@@ -96,22 +139,6 @@
                                         "targets": [
                                             {
                                                 "broker": null,
-                                                "clientScript": {
-                                                    "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {}
-                                                    },
-                                                    "sysId": "ccde05af47b73550638eaa42736d4363"
-                                                },
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": null,
-                                                "operation": null,
-                                                "targetId": "clrqvfjwgaaggpeddbhhtzbcbvxmff",
-                                                "type": "CLIENT_SCRIPT"
-                                            },
-                                            {
-                                                "broker": null,
                                                 "clientScript": null,
                                                 "conditional": null,
                                                 "declarativeAction": null,
@@ -127,8 +154,24 @@
                                                     "sysId": "32408b42ff7a10109046e490703bf176"
                                                 },
                                                 "operation": null,
-                                                "targetId": "clrqyeenndaahhfnddbhhtaiiivytuaa",
+                                                "targetId": "clrtjhhuppaaaazeddbhhnedxzjtlg",
                                                 "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": {
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    },
+                                                    "sysId": "ccde05af47b73550638eaa42736d4363"
+                                                },
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": null,
+                                                "targetId": "clrtjiidddpaabbaaddddbhhnfrthhcorl",
+                                                "type": "CLIENT_SCRIPT"
                                             }
                                         ]
                                     }
@@ -155,7 +198,7 @@
                                     },
                                     "disabled": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": null
                                     },
                                     "fieldLayout": {
                                         "type": "JSON_LITERAL",
@@ -230,8 +273,19 @@
                                         }
                                     },
                                     "readonly": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
+                                        "binding": {
+                                            "address": [
+                                                "get_quiz_instance",
+                                                "output",
+                                                "data",
+                                                "xSncQuiznow",
+                                                "quizifier",
+                                                "getQuizInstanceByAccessCode",
+                                                "quiz",
+                                                "name"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
                                     },
                                     "required": {
                                         "type": "JSON_LITERAL",
@@ -588,10 +642,17 @@
                                                     "right": {
                                                         "binding": {
                                                             "address": [
-                                                                "quizIsValid"
+                                                                "get_quiz_instance",
+                                                                "output",
+                                                                "data",
+                                                                "xSncQuiznow",
+                                                                "quizifier",
+                                                                "getQuizInstanceByAccessCode",
+                                                                "quiz",
+                                                                "name"
                                                             ]
                                                         },
-                                                        "type": "STATE_BINDING"
+                                                        "type": "DATA_OUTPUT_BINDING"
                                                     }
                                                 },
                                                 "type": "BINARY"
@@ -639,6 +700,10 @@
                                 "items": [
                                     {
                                         "element_id": "stylized_text_1",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "stylized_text_2",
                                         "styles": {}
                                     },
                                     {
@@ -892,19 +957,43 @@
                         "event": {
                             "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
                             "payload": {
-                                "script": {
-                                    "apiVersion": "1.0.0",
-                                    "controllerElementId": null,
-                                    "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\tconsole.log(event.name, api.data.get_quiz_instance.output.data.xSncQuiznow.quizifier.getQuizInstanceByAccessCode);\n\tconst {state} = api.data.get_quiz_instance.output.data.xSncQuiznow.quizifier.getQuizInstanceByAccessCode;\n\n\tconst isActive = state == \"Active\";\n\treturn {\n\t\tpropName: \"quizIsValid\",\n\t\tvalue: isActive\n\t};\n}",
-                                    "scriptSysId": null,
-                                    "target": null
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "quizIsValid"
+                                    },
+                                    "value": {
+                                        "operation": {
+                                            "operand": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "get_quiz_instance",
+                                                                "output",
+                                                                "data",
+                                                                "xSncQuiznow",
+                                                                "quizifier",
+                                                                "getQuizInstanceByAccessCode"
+                                                            ]
+                                                        },
+                                                        "type": "DATA_OUTPUT_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "operator": "NOT"
+                                        },
+                                        "type": "UNARY"
+                                    }
                                 },
-                                "type": "CLIENT_TRANSFORM_SCRIPT"
+                                "type": "MAP_CONTAINER"
                             },
                             "sysId": "32408b42ff7a10109046e490703bf176"
                         },
                         "operation": null,
-                        "targetId": "clrqxmccotaahhhhccddbhhthgseeddeehhv",
+                        "targetId": "clrtixhhnbaaaaphddbhhnsjjvqggbblii",
                         "type": "EVENT"
                     }
                 ]
@@ -931,49 +1020,7 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{
-    "MACROPONENT_READY": [
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": {
-                "binding": {
-                    "address": [
-                        "accessCode"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "declarativeAction": null,
-            "event": {
-                "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                "payload": {
-                    "container": {
-                        "propName": {
-                            "type": "JSON_LITERAL",
-                            "value": "accessCode"
-                        },
-                        "value": {
-                            "binding": {
-                                "address": [
-                                    "accessCode"
-                                ],
-                                "category": "props"
-                            },
-                            "type": "CONTEXT_BINDING"
-                        }
-                    },
-                    "type": "MAP_CONTAINER"
-                },
-                "sysId": "32408b42ff7a10109046e490703bf176"
-            },
-            "operation": null,
-            "targetId": "clrqtyeewaafflhhddbhhtbbddknidtcc",
-            "type": "EVENT"
-        }
-    ]
-}</internal_event_mappings>
+        <internal_event_mappings>{}</internal_event_mappings>
         <layout>{
     "default": {
         "children": null,
@@ -1025,6 +1072,19 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clrtijjjthaaaabqddbhhnnccghgfsc",
+        "inherited": false,
+        "label": "accessCode",
+        "mandatory": false,
+        "name": "accessCode",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1053,15 +1113,28 @@
         <state_properties>[
     {
         "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": "X"
+            "binding": {
+                "address": [
+                    "accessCode"
+                ],
+                "category": "props"
+            },
+            "type": "CONTEXT_BINDING"
         },
         "name": "accessCode",
         "shape": "",
         "valueType": "string"
     },
     {
-        "initialValue": null,
+        "initialValue": {
+            "binding": {
+                "address": [
+                    "screenName"
+                ],
+                "category": "props"
+            },
+            "type": "CONTEXT_BINDING"
+        },
         "name": "screenName",
         "shape": "",
         "valueType": "string"
@@ -1075,20 +1148,26 @@
         "name": "quizIsValid",
         "shape": "",
         "valueType": "boolean"
+    },
+    {
+        "initialValue": null,
+        "name": "quizName",
+        "shape": "",
+        "valueType": "string"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-22 17:14:15</sys_created_on>
         <sys_id>bfa25f0f47ffb150638eaa42736d43bf</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_bfa25f0f47ffb150638eaa42736d43bf</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-23 22:47:25</sys_updated_on>
+        <sys_updated_on>2024-01-25 18:19:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bfa25f0f47ffb150638eaa42736d43bf"/>
 </record_update>
