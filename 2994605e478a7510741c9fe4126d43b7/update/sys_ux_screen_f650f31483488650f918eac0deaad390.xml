@@ -121,7 +121,7 @@
         ]
     }
 ]</event_mappings>
-        <macroponent display_value="Default">3dd49f8f47ffb150638eaa42736d43fa</macroponent>
+        <macroponent display_value="Default">a6503b9083488650f918eac0deaad324</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -152,7 +152,7 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>Default</name>
+        <name>Component</name>
         <order>0</order>
         <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
         <required_translations>[ ]</required_translations>
@@ -161,19 +161,19 @@
         <screen_type display_value="Game">79d49f8f47ffb150638eaa42736d43f6</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>jon.lind</sys_created_by>
-        <sys_created_on>2024-01-22 17:23:40</sys_created_on>
+        <sys_created_on>2024-01-26 16:36:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fdd49f8f47ffb150638eaa42736d43fc</sys_id>
-        <sys_mod_count>81</sys_mod_count>
-        <sys_name>Default</sys_name>
+        <sys_id>f650f31483488650f918eac0deaad390</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Component</sys_name>
         <sys_overrides/>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
-        <sys_update_name>sys_ux_screen_fdd49f8f47ffb150638eaa42736d43fc</sys_update_name>
+        <sys_update_name>sys_ux_screen_f650f31483488650f918eac0deaad390</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-26 17:36:58</sys_updated_on>
+        <sys_updated_on>2024-01-26 16:38:21</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=fdd49f8f47ffb150638eaa42736d43fc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f650f31483488650f918eac0deaad390"/>
 </record_update>
