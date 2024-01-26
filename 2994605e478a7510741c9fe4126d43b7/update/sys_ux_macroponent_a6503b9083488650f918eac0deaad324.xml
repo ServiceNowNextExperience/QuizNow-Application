@@ -49,7 +49,7 @@
                                             "type": "JSON_LITERAL",
                                             "value": {}
                                         },
-                                        "sysId": "ebf2092347b73550638eaa42736d43e1"
+                                        "sysId": "2a50f31483488650f918eac0deaad383"
                                     },
                                     "conditional": null,
                                     "declarativeAction": null,
@@ -65,7 +65,7 @@
                                             "type": "JSON_LITERAL",
                                             "value": {}
                                         },
-                                        "sysId": "8d2e84af47b33550638eaa42736d43bc"
+                                        "sysId": "ea50f31483488650f918eac0deaad36f"
                                     },
                                     "conditional": null,
                                     "declarativeAction": null,
@@ -207,244 +207,6 @@
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "column_layout_1",
-        "elementLabel": "Title Row",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "overrides": {
-            "composition": [
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clruxhhnueeaaaahqddbhhtbbhnieeeaau__column_1",
-                    "elementLabel": "__clruxhhnueeaaaahqddbhhtbbhnieeeaau__Column 1",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "stylized_text_4",
-                                "elementLabel": "Quiz Name",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "css": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "* { }"
-                                    },
-                                    "tag": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "h1"
-                                    },
-                                    "text": {
-                                        "binding": {
-                                            "address": [
-                                                "quizInstance",
-                                                "quiz",
-                                                "name"
-                                            ]
-                                        },
-                                        "type": "STATE_BINDING"
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "stylized_text_4",
-                                        "styles": {}
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "center",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "center",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                }
-            ],
-            "layout": {
-                "default": {
-                    "children": null,
-                    "isInline": null,
-                    "items": [
-                        {
-                            "element_id": "__clruxhhnueeaaaahqddbhhtbbhnieeeaau__column_1",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        }
-                    ],
-                    "root": null,
-                    "rules": null,
-                    "styles": {
-                        "box-sizing": "border-box",
-                        "grid-template-columns": "100fr",
-                        "grid-template-rows": "1fr",
-                        "width": "100%"
-                    },
-                    "type": "grid"
-                },
-                "queries": [
-                    {
-                        "layout": {
-                            "children": null,
-                            "isInline": null,
-                            "items": [
-                                
-                            ],
-                            "root": null,
-                            "rules": null,
-                            "styles": {
-                                "box-sizing": "border-box",
-                                "grid-template-columns": "1fr",
-                                "grid-template-rows": "1fr",
-                                "height": "fit-content",
-                                "max-height": "max-content",
-                                "min-height": "min-content",
-                                "width": "100%"
-                            },
-                            "type": "grid"
-                        },
-                        "query": {
-                            "max-width": 640
-                        }
-                    }
-                ],
-                "version": "3.0.0"
-            }
-        },
-        "preset": null,
-        "propertyValues": {
-            "slotWrapperBehavior": {
-                "type": "JSON_LITERAL",
-                "value": "contents"
-            }
-        },
-        "scratchPad": {
-            "uib": {
-                "layout": {
-                    "columnSection": {
-                        "breakpoints": [
-                            {
-                                "behavior": "stack",
-                                "max-width": 640,
-                                "styles": {
-                                    "box-sizing": "border-box",
-                                    "grid-template-columns": "1fr",
-                                    "grid-template-rows": "1fr",
-                                    "height": "fit-content",
-                                    "max-height": "max-content",
-                                    "min-height": "min-content",
-                                    "width": "100%"
-                                }
-                            }
-                        ],
-                        "children": [
-                            {
-                                "columnNumber": 1,
-                                "unit": "%",
-                                "width": 100
-                            }
-                        ],
-                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
-                        "styleConfig": {
-                            "external": {
-                                "display": "contents",
-                                "width": "100%"
-                            },
-                            "internal": {
-                                "box-sizing": "border-box",
-                                "grid-template-rows": "1fr",
-                                "width": "100%"
-                            }
-                        }
-                    },
-                    "type": "columnSection"
-                },
-                "version": "1.0.0"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "d356d14b6e293a3020a244b63d278d8f",
-            "type": "MACROPONENT"
-        },
         "elementId": "column_layout_waiting",
         "elementLabel": "Waiting Layout",
         "eventMappings": [
@@ -507,6 +269,44 @@
                                     "id": "4335ba6dca80378f7ba7a67cd6667bec",
                                     "type": "MACROPONENT"
                                 },
+                                "elementId": "stylized_text_3",
+                                "elementLabel": "Quiz Name",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h1"
+                                    },
+                                    "text": {
+                                        "binding": {
+                                            "address": [
+                                                "quizInstance",
+                                                "quiz",
+                                                "name"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
                                 "elementId": "stylized_text_1",
                                 "elementLabel": "Waiting Message",
                                 "eventMappings": [
@@ -543,6 +343,10 @@
                             "default": {
                                 "children": null,
                                 "items": [
+                                    {
+                                        "element_id": "stylized_text_3",
+                                        "styles": {}
+                                    },
                                     {
                                         "element_id": "stylized_text_1",
                                         "styles": {}
@@ -730,7 +534,7 @@
                 "operator": "NOT_EQUAL",
                 "right": {
                     "type": "JSON_LITERAL",
-                    "value": "0"
+                    "value": 0
                 }
             },
             "type": "BINARY"
@@ -1031,7 +835,7 @@
                                     "type": "MACROPONENT"
                                 },
                                 "elementId": "quiznow_component_1",
-                                "elementLabel": "QuizNow Component",
+                                "elementLabel": "QuizNow Component 1",
                                 "eventMappings": [
                                     
                                 ],
@@ -1056,7 +860,7 @@
                                     },
                                     "mode": {
                                         "type": "JSON_LITERAL",
-                                        "value": "player"
+                                        "value": "presenter"
                                     },
                                     "question": {
                                         "binding": {
@@ -1287,7 +1091,7 @@
                                 "type": "JSON_LITERAL",
                                 "value": {}
                             },
-                            "sysId": "8d2e84af47b33550638eaa42736d43bc"
+                            "sysId": "ea50f31483488650f918eac0deaad36f"
                         },
                         "conditional": null,
                         "declarativeAction": null,
@@ -1364,7 +1168,7 @@
                                 "type": "JSON_LITERAL",
                                 "value": {}
                             },
-                            "sysId": "8d2e84af47b33550638eaa42736d43bc"
+                            "sysId": "ea50f31483488650f918eac0deaad36f"
                         },
                         "conditional": null,
                         "declarativeAction": null,
@@ -1380,7 +1184,7 @@
                                 "type": "JSON_LITERAL",
                                 "value": {}
                             },
-                            "sysId": "980ea0af47373550638eaa42736d430f"
+                            "sysId": "a650f31483488650f918eac0deaad373"
                         },
                         "conditional": null,
                         "declarativeAction": null,
@@ -1423,7 +1227,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "8d2e84af47b33550638eaa42736d43bc"
+                "sysId": "ea50f31483488650f918eac0deaad36f"
             },
             "conditional": null,
             "declarativeAction": null,
@@ -1439,7 +1243,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "980ea0af47373550638eaa42736d430f"
+                "sysId": "a650f31483488650f918eac0deaad373"
             },
             "conditional": {
                 "operation": {
@@ -1496,7 +1300,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "4d2e84af47b33550638eaa42736d43bc"
+                "sysId": "6650f31483488650f918eac0deaad36a"
             },
             "conditional": {
                 "operation": {
@@ -1532,7 +1336,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "8d2e84af47b33550638eaa42736d43bc"
+                "sysId": "ea50f31483488650f918eac0deaad36f"
             },
             "conditional": null,
             "declarativeAction": null,
@@ -1548,7 +1352,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "4d2e84af47b33550638eaa42736d43bc"
+                "sysId": "6650f31483488650f918eac0deaad36a"
             },
             "conditional": {
                 "operation": {
@@ -1584,13 +1388,6 @@
             {
                 "element_id": "container_1",
                 "styles": {
-                    "width": "100%"
-                }
-            },
-            {
-                "element_id": "column_layout_1",
-                "styles": {
-                    "display": "contents",
                     "width": "100%"
                 }
             },
@@ -1787,16 +1584,16 @@
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>jon.lind</sys_created_by>
-        <sys_created_on>2024-01-22 17:23:40</sys_created_on>
-        <sys_id>3dd49f8f47ffb150638eaa42736d43fa</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_created_on>2024-01-26 16:36:16</sys_created_on>
+        <sys_id>a6503b9083488650f918eac0deaad324</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
-        <sys_update_name>sys_ux_macroponent_3dd49f8f47ffb150638eaa42736d43fa</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_a6503b9083488650f918eac0deaad324</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-26 17:36:59</sys_updated_on>
+        <sys_updated_on>2024-01-26 16:38:21</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=3dd49f8f47ffb150638eaa42736d43fa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6503b9083488650f918eac0deaad324"/>
 </record_update>

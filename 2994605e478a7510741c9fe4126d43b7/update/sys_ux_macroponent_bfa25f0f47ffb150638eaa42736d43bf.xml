@@ -148,7 +148,7 @@
                                                         "type": "JSON_LITERAL",
                                                         "value": {
                                                             "propName": "quizIsValid",
-                                                            "value": false
+                                                            "value": "false"
                                                         }
                                                     },
                                                     "sysId": "32408b42ff7a10109046e490703bf176"
@@ -197,8 +197,19 @@
                                         }
                                     },
                                     "disabled": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
+                                        "binding": {
+                                            "address": [
+                                                "get_quiz_instance",
+                                                "output",
+                                                "data",
+                                                "xSncQuiznow",
+                                                "quizifier",
+                                                "getQuizInstanceByAccessCode",
+                                                "quiz",
+                                                "name"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
                                     },
                                     "fieldLayout": {
                                         "type": "JSON_LITERAL",
@@ -273,19 +284,8 @@
                                         }
                                     },
                                     "readonly": {
-                                        "binding": {
-                                            "address": [
-                                                "get_quiz_instance",
-                                                "output",
-                                                "data",
-                                                "xSncQuiznow",
-                                                "quizifier",
-                                                "getQuizInstanceByAccessCode",
-                                                "quiz",
-                                                "name"
-                                            ]
-                                        },
-                                        "type": "DATA_OUTPUT_BINDING"
+                                        "type": "JSON_LITERAL",
+                                        "value": false
                                     },
                                     "required": {
                                         "type": "JSON_LITERAL",
@@ -1160,14 +1160,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-22 17:14:15</sys_created_on>
         <sys_id>bfa25f0f47ffb150638eaa42736d43bf</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_bfa25f0f47ffb150638eaa42736d43bf</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-25 18:19:12</sys_updated_on>
+        <sys_updated_on>2024-01-26 16:28:55</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bfa25f0f47ffb150638eaa42736d43bf"/>
 </record_update>
