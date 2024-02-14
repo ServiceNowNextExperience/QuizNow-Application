@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
+        <api_name>x_snc_quiznow.Answer Question</api_name>
+        <description>Used to answer a question in a quiz</description>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Answer Question</name>
+        <output_schema>[&#13;
+  {&#13;
+    "answerQuestion": {&#13;
+      "type": "string"&#13;
+    }&#13;
+  }&#13;
+]</output_schema>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "questionID",&#13;
+    "label": "Question ID",&#13;
+    "description": "The Question Sys ID that this is answering",&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "questionChoiceID",&#13;
+    "label": "Question Choice ID",&#13;
+    "description": "The question choice for this answer",&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "quizInstanceAccessCode",&#13;
+    "label": "Quiz Instance Access Code",&#13;
+    "description": "The access code for the quiz that this is answer for e.g. 'XYZA'",&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "quizInstanceUserName",&#13;
+    "label": "Quiz Instance User Name",&#13;
+    "description": "The text username of the user who is answering the question, e.g. 'Sammy Haggar'",&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  }&#13;
+]</props>
+        <query>mutation AnswerQuestion($questionID: ID!, $questionChoiceID: ID!, $quizInstanceAccessCode: String!, $quizInstanceUserName: String!) {&#13;
+  xSncQuiznow {&#13;
+    quizifier {&#13;
+      answerQuestion(&#13;
+        answer: {questionID: $questionID, questionChoiceID: $questionChoiceID, quizInstanceAccessCode: $quizInstanceAccessCode, quizInstanceUserName: $quizInstanceUserName}&#13;
+      )&#13;
+    }&#13;
+  }&#13;
+}</query>
+        <required_translations>[ {
+  "message" : "Question Choice ID",
+  "comment" : ""
+}, {
+  "message" : "Question ID",
+  "comment" : ""
+}, {
+  "message" : "Quiz Instance Access Code",
+  "comment" : ""
+}, {
+  "message" : "Quiz Instance User Name",
+  "comment" : ""
+}, {
+  "message" : "The Question Sys ID that this is answering",
+  "comment" : ""
+}, {
+  "message" : "The access code for the quiz that this is answer for e.g. 'XYZA'",
+  "comment" : ""
+}, {
+  "message" : "The question choice for this answer",
+  "comment" : ""
+}, {
+  "message" : "The text username of the user who is answering the question, e.g. 'Sammy Haggar'",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2024-02-14 17:21:23</sys_created_on>
+        <sys_id>3d4031a683d04210f918eac0deaad34a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Answer Question</sys_name>
+        <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_3d4031a683d04210f918eac0deaad34a</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2024-02-14 17:39:15</sys_updated_on>
+        <type>query</type>
+        <use_record_domain>false</use_record_domain>
+    </sys_ux_data_broker_graphql>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d4031a683d04210f918eac0deaad34a"/>
+</record_update>
