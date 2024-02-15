@@ -88,7 +88,7 @@
                                 },
                                 "type": "CONTEXT_BINDING"
                             },
-                            "operator": "&gt;=",
+                            "operator": "&gt;",
                             "right": {
                                 "binding": {
                                     "address": [
@@ -837,7 +837,114 @@
                                 "elementId": "quiznow_component_1",
                                 "elementLabel": "QuizNow Component 1",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "clsmbbvrpjaaaahhiddbhhtsxedtggjjf",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "x_snc_quiznow_game.CHOICE_SELECTED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "x_snc_quiznow_game.CHOICE_SELECTED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": {
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    },
+                                                    "sysId": "ea50f31483488650f918eac0deaad36f"
+                                                },
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": null,
+                                                "targetId": "clsmbbzygmaaaajjfddbhhtaaffgghzffmr",
+                                                "type": "CLIENT_SCRIPT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "3d4031a683d04210f918eac0deaad34a",
+                                                    "operationName": "EXECUTE",
+                                                    "parentResourceId": "answer_question_1",
+                                                    "payload": {
+                                                        "container": {
+                                                            "questionChoiceID": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "choiceId"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "questionID": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "currentQuestion",
+                                                                        "id"
+                                                                    ]
+                                                                },
+                                                                "type": "STATE_BINDING"
+                                                            },
+                                                            "quizInstanceAccessCode": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "accessCode"
+                                                                    ],
+                                                                    "category": "props"
+                                                                },
+                                                                "type": "CONTEXT_BINDING"
+                                                            },
+                                                            "quizInstanceUserName": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "screenName"
+                                                                    ],
+                                                                    "category": "props"
+                                                                },
+                                                                "type": "CONTEXT_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    }
+                                                },
+                                                "targetId": "clsmddbbddcdaaaachddbhhtyuaaggygbc",
+                                                "type": "DATABROKER_OP"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_snc_quiznow.CONTENT_UPDATED_RELAY_a6503b9083488650f918eac0deaad324",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tparams: {choiceSelected : true}\n\t};\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "4cce692683d04210f918eac0deaad3ca"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clsmeecerraaaaktddbhhtbbhhmwmggjjj",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -846,8 +953,13 @@
                                 "preset": null,
                                 "propertyValues": {
                                     "choiceSelected": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
+                                        "binding": {
+                                            "address": [
+                                                "choiceSelected"
+                                            ],
+                                            "category": "props"
+                                        },
+                                        "type": "CONTEXT_BINDING"
                                     },
                                     "choices": {
                                         "binding": {
@@ -860,7 +972,7 @@
                                     },
                                     "mode": {
                                         "type": "JSON_LITERAL",
-                                        "value": "presenter"
+                                        "value": "player"
                                     },
                                     "question": {
                                         "binding": {
@@ -872,12 +984,10 @@
                                         "type": "STATE_BINDING"
                                     },
                                     "questionOver": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
+                                        "type": "JSON_LITERAL"
                                     },
                                     "showScoreBoard": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
+                                        "type": "JSON_LITERAL"
                                     },
                                     "timeElapsed": {
                                         "type": "JSON_LITERAL",
@@ -885,7 +995,7 @@
                                     },
                                     "timeLimit": {
                                         "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": 20
                                     }
                                 },
                                 "slot": null,
@@ -1208,10 +1318,140 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "3d4031a683d04210f918eac0deaad34a",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "answer_question_1",
+        "elementLabel": "Answer Question 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clsmddhhnccddaaaaggddbhhtnfysbcne",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_INITIATED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_INITIATED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "ea50f31483488650f918eac0deaad36f"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clsmddhhnccddaaaaghddbhhtwiijhiaahff",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clsmddhhuwfaaaaguddbhhtjggahmgbbgg",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "ea50f31483488650f918eac0deaad36f"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clsmddhhuwfaaaagvddbhhtddwaayykffg",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clsmddiiaajjjaaaahhhddbhhtjenqugbbt",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_FAILED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_FAILED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "3d4031a683d04210f918eac0deaad34a",
+                            "operationName": "EXECUTE",
+                            "parentResourceId": "answer_question_1",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "questionChoiceID": null,
+                                    "questionID": null,
+                                    "quizInstanceAccessCode": null,
+                                    "quizInstanceUserName": null
+                                }
+                            }
+                        },
+                        "targetId": "clsmddiiaajjjaaaahiiddbhhtddjddiotiiff",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "questionChoiceID": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "questionID": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "quizInstanceAccessCode": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "quizInstanceUserName": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
-        <dispatched_events>abf2092347b73550638eaa42736d43e1</dispatched_events>
+        <dispatched_events>abf2092347b73550638eaa42736d43e1,4cce692683d04210f918eac0deaad3ca</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1508,6 +1748,32 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsmbbutheeaaaaeeeddbhhtrcchpxffke",
+        "inherited": false,
+        "label": "choiceSelected",
+        "mandatory": false,
+        "name": "choiceSelected",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsmbbutheeaaaaeefddbhhtggddeeekaait",
+        "inherited": false,
+        "label": "showScoreboard",
+        "mandatory": false,
+        "name": "showScoreboard",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1586,14 +1852,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-26 16:36:16</sys_created_on>
         <sys_id>a6503b9083488650f918eac0deaad324</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_a6503b9083488650f918eac0deaad324</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-26 16:38:21</sys_updated_on>
+        <sys_updated_on>2024-02-14 20:38:02</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a6503b9083488650f918eac0deaad324"/>
 </record_update>

@@ -119,6 +119,49 @@
                 "type": "EVENT"
             }
         ]
+    },
+    {
+        "eventMappingId": "clsmbbxnvoaaaaiiccddbhhtipfdipbd",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_snc_quiznow.CONTENT_UPDATED_RELAY_a6503b9083488650f918eac0deaad324",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_snc_quiznow.CONTENT_UPDATED_RELAY_a6503b9083488650f918eac0deaad324",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.CONTENT_UPDATED",
+                    "payload": {
+                        "container": {
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "75f3815fb0d9c38bb6df1626a0f284c4"
+                },
+                "operation": null,
+                "targetId": "clsmbbxnvnaaaaiibbddbhhtwiilkjjpffbb",
+                "type": "EVENT"
+            }
+        ]
     }
 ]</event_mappings>
         <macroponent display_value="Default">a6503b9083488650f918eac0deaad324</macroponent>
@@ -165,7 +208,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f650f31483488650f918eac0deaad390</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Component</sys_name>
         <sys_overrides/>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
@@ -173,7 +216,7 @@
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_screen_f650f31483488650f918eac0deaad390</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-26 16:38:21</sys_updated_on>
+        <sys_updated_on>2024-02-14 20:38:02</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=f650f31483488650f918eac0deaad390"/>
 </record_update>

@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="edd5a69947dab150638eaa42736d431c" sys_domain="global" table="x_snc_quiznow_quiz_instance_user" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>name</element>
             <position>0</position>
-            <sys_created_by>brad.tilton</sys_created_by>
-            <sys_created_on>2023-11-03 13:54:46</sys_created_on>
-            <sys_id>edd5a69947dab150638eaa42736d431f</sys_id>
+            <sys_created_by>jon.lind</sys_created_by>
+            <sys_created_on>2024-02-13 19:51:48</sys_created_on>
+            <sys_id>c2b9cd1a83900210f918eac0deaad309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_quiznow_quiz_instance_user" sys_domain="global" view="Default view">edd5a69947dab150638eaa42736d431c</sys_ui_section>
-            <sys_updated_by>brad.tilton</sys_updated_by>
-            <sys_updated_on>2023-11-03 13:54:46</sys_updated_on>
+            <sys_updated_by>jon.lind</sys_updated_by>
+            <sys_updated_on>2024-02-13 19:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>jon.lind</sys_created_by>
+            <sys_created_on>2024-02-13 19:51:48</sys_created_on>
+            <sys_id>4ab9cd1a83900210f918eac0deaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_quiznow_quiz_instance_user" sys_domain="global" view="Default view">edd5a69947dab150638eaa42736d431c</sys_ui_section>
+            <sys_updated_by>jon.lind</sys_updated_by>
+            <sys_updated_on>2024-02-13 19:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>points</element>
+            <position>2</position>
+            <sys_created_by>jon.lind</sys_created_by>
+            <sys_created_on>2024-02-13 19:51:48</sys_created_on>
+            <sys_id>cab9cd1a83900210f918eac0deaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_quiznow_quiz_instance_user" sys_domain="global" view="Default view">edd5a69947dab150638eaa42736d431c</sys_ui_section>
+            <sys_updated_by>jon.lind</sys_updated_by>
+            <sys_updated_on>2024-02-13 19:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quiz_instance</element>
+            <position>3</position>
+            <sys_created_by>jon.lind</sys_created_by>
+            <sys_created_on>2024-02-13 19:51:48</sys_created_on>
+            <sys_id>4eb9cd1a83900210f918eac0deaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_quiznow_quiz_instance_user" sys_domain="global" view="Default view">edd5a69947dab150638eaa42736d431c</sys_ui_section>
+            <sys_updated_by>jon.lind</sys_updated_by>
+            <sys_updated_on>2024-02-13 19:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

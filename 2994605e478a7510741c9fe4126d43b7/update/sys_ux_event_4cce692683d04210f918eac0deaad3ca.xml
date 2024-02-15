@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_a6503b9083488650f918eac0deaad324</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Add parameters to URL Relay (Default)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "Add parameters to the URL",
+        "fieldType": "json",
+        "label": "Parameters",
+        "name": "params",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "selectedIndex": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Add parameters to the URL",
+  "comment" : ""
+}, {
+  "message" : "Parameters",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2024-02-14 17:14:20</sys_created_on>
+        <sys_id>4cce692683d04210f918eac0deaad3ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Add parameters to URL Relay (Default)</sys_name>
+        <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
+        <sys_update_name>sys_ux_event_4cce692683d04210f918eac0deaad3ca</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2024-02-14 18:13:11</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=4cce692683d04210f918eac0deaad3ca"/>
+</record_update>
