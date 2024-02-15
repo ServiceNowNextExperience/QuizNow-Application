@@ -1225,7 +1225,7 @@
                             {
                                 "binding": {
                                     "address": [
-                                        "accessCode"
+                                        "code"
                                     ],
                                     "category": "props"
                                 },
@@ -1310,7 +1310,7 @@
             "accessCode": {
                 "binding": {
                     "address": [
-                        "accessCode"
+                        "code"
                     ],
                     "category": "props"
                 },
@@ -1774,6 +1774,32 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsngaalffhhaaaayggddbhhsuiywaahoq",
+        "inherited": false,
+        "label": "code",
+        "mandatory": false,
+        "name": "code",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsngaalffhhaaaayhhddbhhsffiiiiceeccjm",
+        "inherited": false,
+        "label": "name",
+        "mandatory": false,
+        "name": "name",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1852,14 +1878,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-26 16:36:16</sys_created_on>
         <sys_id>a6503b9083488650f918eac0deaad324</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_a6503b9083488650f918eac0deaad324</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-02-14 20:38:02</sys_updated_on>
+        <sys_updated_on>2024-02-15 16:39:11</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a6503b9083488650f918eac0deaad324"/>
 </record_update>

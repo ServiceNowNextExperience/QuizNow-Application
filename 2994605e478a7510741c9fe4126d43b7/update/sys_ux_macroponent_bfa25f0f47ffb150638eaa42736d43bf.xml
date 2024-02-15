@@ -306,7 +306,7 @@
                                     "value": {
                                         "binding": {
                                             "address": [
-                                                "accessCode"
+                                                "code"
                                             ],
                                             "category": "props"
                                         },
@@ -325,7 +325,7 @@
                                 "elementLabel": "Screen Name Input",
                                 "eventMappings": [
                                     {
-                                        "eventMappingId": "clrquaaeeytaaffmlddbhhtyffhhcnyvy",
+                                        "eventMappingId": "clsnftjiidaaaatdddbhhshhhddpeekza",
                                         "isConfiguration": false,
                                         "offRowStorageId": null,
                                         "sourceEventApiName": "sn_input.NOW_INPUT#INPUT",
@@ -343,28 +343,21 @@
                                                 "conditional": null,
                                                 "declarativeAction": null,
                                                 "event": {
-                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "apiName": "x_snc_quiznow.CONTENT_UPDATED_RELAY_bfa25f0f47ffb150638eaa42736d43bf",
                                                     "payload": {
-                                                        "container": {
-                                                            "propName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "screenName"
-                                                            },
-                                                            "value": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "fieldValue"
-                                                                    ]
-                                                                },
-                                                                "type": "EVENT_PAYLOAD_BINDING"
-                                                            }
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tparams: {name : event.payload.fieldValue}\n\t};\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
                                                         },
-                                                        "type": "MAP_CONTAINER"
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
                                                     },
-                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                    "sysId": "101de23a83548210f918eac0deaad312"
                                                 },
                                                 "operation": null,
-                                                "targetId": "clrquaaeeytaaffmmddbhhtezhehhpaa",
+                                                "targetId": "clsnftjiidaaaateddbhhsqcwjmuvx",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -489,7 +482,7 @@
                                     "value": {
                                         "binding": {
                                             "address": [
-                                                "screenName"
+                                                "name"
                                             ],
                                             "category": "props"
                                         },
@@ -538,18 +531,20 @@
                                                                     "accessCode": {
                                                                         "binding": {
                                                                             "address": [
-                                                                                "accessCode"
-                                                                            ]
+                                                                                "code"
+                                                                            ],
+                                                                            "category": "props"
                                                                         },
-                                                                        "type": "STATE_BINDING"
+                                                                        "type": "CONTEXT_BINDING"
                                                                     },
                                                                     "screenName": {
                                                                         "binding": {
                                                                             "address": [
-                                                                                "screenName"
-                                                                            ]
+                                                                                "name"
+                                                                            ],
+                                                                            "category": "props"
                                                                         },
-                                                                        "type": "STATE_BINDING"
+                                                                        "type": "CONTEXT_BINDING"
                                                                     }
                                                                 },
                                                                 "type": "MAP_CONTAINER"
@@ -633,10 +628,11 @@
                                                     "left": {
                                                         "binding": {
                                                             "address": [
-                                                                "screenName"
-                                                            ]
+                                                                "name"
+                                                            ],
+                                                            "category": "props"
                                                         },
-                                                        "type": "STATE_BINDING"
+                                                        "type": "CONTEXT_BINDING"
                                                     },
                                                     "operator": "AND",
                                                     "right": {
@@ -1003,17 +999,18 @@
             "accessCode": {
                 "binding": {
                     "address": [
-                        "accessCode"
-                    ]
+                        "code"
+                    ],
+                    "category": "props"
                 },
-                "type": "STATE_BINDING"
+                "type": "CONTEXT_BINDING"
             }
         },
         "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
-        <dispatched_events>4cde05af47b73550638eaa42736d4363</dispatched_events>
+        <dispatched_events>4cde05af47b73550638eaa42736d4363,101de23a83548210f918eac0deaad312</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1085,6 +1082,32 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsnfdhhftaaaaddjddbhhsopbbldccu",
+        "inherited": false,
+        "label": "code",
+        "mandatory": false,
+        "name": "code",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clsnfdhhftaaaaddkddbhhsfftubbajjpc",
+        "inherited": false,
+        "label": "Name",
+        "mandatory": false,
+        "name": "name",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1115,7 +1138,7 @@
         "initialValue": {
             "binding": {
                 "address": [
-                    "accessCode"
+                    "code"
                 ],
                 "category": "props"
             },
@@ -1129,7 +1152,7 @@
         "initialValue": {
             "binding": {
                 "address": [
-                    "screenName"
+                    "name"
                 ],
                 "category": "props"
             },
@@ -1160,14 +1183,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-22 17:14:15</sys_created_on>
         <sys_id>bfa25f0f47ffb150638eaa42736d43bf</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_bfa25f0f47ffb150638eaa42736d43bf</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-01-26 16:28:55</sys_updated_on>
+        <sys_updated_on>2024-02-15 16:35:11</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bfa25f0f47ffb150638eaa42736d43bf"/>
 </record_update>
