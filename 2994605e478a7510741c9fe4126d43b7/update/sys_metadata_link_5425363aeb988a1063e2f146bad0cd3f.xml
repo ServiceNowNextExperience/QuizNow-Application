@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3da922beeb588a1063e2f146bad0cdf1</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value=""&gt;jon.lind@snc&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_knowledge_base display_value="Knowledge"&gt;dfc19531bf2021003f07e2c1ac0739ab&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;QuizNow Notes Links to begin play. Use Access Code "XYZA" Dev: https://quiznowdev.service-now.com/now/quiz/play&lt;/meta_description&gt;
+        &lt;number&gt;KB0010001&lt;/number&gt;
+        &lt;published&gt;2024-02-15&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;All About Quiznow&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;jon.lind@snc&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-02-15 16:12:06&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3da922beeb588a1063e2f146bad0cdf1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;jon.lind@snc&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-02-15 16:47:32&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h1&gt;QuizNow Notes&lt;/h1&gt;
+&lt;h2&gt;Links to begin play.&lt;/h2&gt;
+&lt;p&gt;Use Access Code &amp;#34;&lt;strong&gt;XYZA&lt;/strong&gt;&amp;#34;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Dev: &lt;a href="https://quiznowdev.service-now.com/now/quiz/play" target="_blank" rel="noopener noreferrer nofollow"&gt;https://quiznowdev.service-now.com/now/quiz/play&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prod: &lt;a href="https://quiznow.service-now.com/now/quiz/play" target="_blank" rel="noopener noreferrer nofollow"&gt;https://quiznow.service-now.com/now/quiz/play&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Optional Params&lt;/h3&gt;
+&lt;p&gt;You may include the access code in the path like this:&lt;br /&gt;/now/quiz/play/params/code/XYZA&lt;/p&gt;
+&lt;h1&gt;How to Develop&lt;/h1&gt;
+&lt;p&gt;There are two pages in the experience &amp;#34;QuizNow Game&amp;#34;.&lt;/p&gt;
+&lt;p&gt;Note that the app uses optional params extensively, in cases where state variables might be more familiar.  This is to ensure that the state doesn&amp;#39;t get out of whack as the user navigates through the questions (i.e., we don&amp;#39;t want to have a question in state that doesn&amp;#39;t match the question that the user is currently viewing).&lt;/p&gt;
+&lt;h2&gt;Page: Play&lt;/h2&gt;
+&lt;p&gt;This page is the landing page to start the game.  It has inputs for the access code and your name.  Once a valid 4 character access code is entered and a name is created the &amp;#34;OK&amp;#34; button is enabled and you may continue.&lt;/p&gt;
+&lt;h2&gt;Page: Game&lt;/h2&gt;
+&lt;p&gt;This is the page that manages gameplay.  It has two required parameters to start a game--an access code and a name.  In the current dev mode there is a right arrow in the top right of the screen to start the game and navigate through the questions, but in final form it will use a record watcher to monitor the quiz instance to know when to start the game and when each question is complete.&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;now/quiz/game/{{code}}/{{name}}/params/question/{{question}}/choiceSelected/{{choiceSelected}}/showScoreboard/{{showScoreboard}}&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=3da922beeb588a1063e2f146bad0cdf1"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jon.lind@snc</sys_created_by>
+        <sys_created_on>2024-02-15 16:58:03</sys_created_on>
+        <sys_id>5425363aeb988a1063e2f146bad0cd3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010001</sys_name>
+        <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
+        <sys_update_name>sys_metadata_link_5425363aeb988a1063e2f146bad0cd3f</sys_update_name>
+        <sys_updated_by>jon.lind@snc</sys_updated_by>
+        <sys_updated_on>2024-02-15 16:58:03</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>
