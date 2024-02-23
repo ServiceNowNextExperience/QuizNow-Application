@@ -515,6 +515,22 @@
                                         "targets": [
                                             {
                                                 "broker": null,
+                                                "clientScript": {
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    },
+                                                    "sysId": "8cde05af47b73550638eaa42736d4363"
+                                                },
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": null,
+                                                "targetId": "clsywjddeenaaaaddkddbhhsffeeshbbaarff",
+                                                "type": "CLIENT_SCRIPT"
+                                            },
+                                            {
+                                                "broker": null,
                                                 "clientScript": null,
                                                 "conditional": null,
                                                 "declarativeAction": null,
@@ -528,7 +544,7 @@
                                                             },
                                                             "fields": {
                                                                 "container": {
-                                                                    "accessCode": {
+                                                                    "code": {
                                                                         "binding": {
                                                                             "address": [
                                                                                 "code"
@@ -537,7 +553,7 @@
                                                                         },
                                                                         "type": "CONTEXT_BINDING"
                                                                     },
-                                                                    "screenName": {
+                                                                    "name": {
                                                                         "binding": {
                                                                             "address": [
                                                                                 "name"
@@ -558,8 +574,10 @@
                                                                 "value": null
                                                             },
                                                             "params": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "container": {
+                                                                    "question": null
+                                                                },
+                                                                "type": "MAP_CONTAINER"
                                                             },
                                                             "passiveNavigation": {
                                                                 "type": "JSON_LITERAL",
@@ -587,7 +605,7 @@
                                                     "sysId": "4cde05af47b73550638eaa42736d4363"
                                                 },
                                                 "operation": null,
-                                                "targetId": "clrqueepraaffwsddbhhtdxsmgpsjj",
+                                                "targetId": "clsywvddcccaaaabeeddbhhsddujjmaaiieew",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -1183,14 +1201,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-22 17:14:15</sys_created_on>
         <sys_id>bfa25f0f47ffb150638eaa42736d43bf</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>81</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_bfa25f0f47ffb150638eaa42736d43bf</sys_update_name>
-        <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2024-02-15 16:35:11</sys_updated_on>
+        <sys_updated_by>jon.lind@snc</sys_updated_by>
+        <sys_updated_on>2024-02-23 17:14:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bfa25f0f47ffb150638eaa42736d43bf"/>
 </record_update>
