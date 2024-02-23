@@ -1676,75 +1676,10 @@
         "description": null,
         "disabled": false,
         "fieldType": "string",
-        "label": "quizInstanceId",
-        "mandatory": false,
-        "name": "quizInstanceId",
-        "readOnly": true,
-        "selectable": false,
-        "typeMetadata": null,
-        "valueType": "string"
-    },
-    {
-        "defaultValue": "",
-        "description": null,
-        "disabled": false,
-        "fieldType": "string",
-        "label": "playerId",
-        "mandatory": false,
-        "name": "playerId",
-        "readOnly": true,
-        "selectable": false,
-        "typeMetadata": null,
-        "valueType": "string"
-    },
-    {
-        "defaultValue": "",
-        "description": null,
-        "disabled": false,
-        "fieldType": "string",
         "label": "question",
         "mandatory": false,
         "name": "question",
         "readOnly": true,
-        "selectable": false,
-        "typeMetadata": null,
-        "valueType": "string"
-    },
-    {
-        "description": "",
-        "fieldType": "string",
-        "id": "clrpjjggggvaaaahhjhddbhhsustysbwx",
-        "inherited": false,
-        "label": "instanceCode",
-        "mandatory": false,
-        "name": "instanceCode",
-        "readOnly": false,
-        "selectable": false,
-        "typeMetadata": null,
-        "valueType": "string"
-    },
-    {
-        "description": "",
-        "fieldType": "string",
-        "id": "clrpjjggggvaaaahhjiddbhhsfqbiorbl",
-        "inherited": false,
-        "label": "screenName",
-        "mandatory": false,
-        "name": "screenName",
-        "readOnly": false,
-        "selectable": false,
-        "typeMetadata": null,
-        "valueType": "string"
-    },
-    {
-        "description": "",
-        "fieldType": "string",
-        "id": "clrqsagggbbaaddvbddbhhtmgseeddkiiu",
-        "inherited": false,
-        "label": "accessCode",
-        "mandatory": false,
-        "name": "accessCode",
-        "readOnly": false,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
@@ -1878,14 +1813,14 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2024-01-26 16:36:16</sys_created_on>
         <sys_id>a6503b9083488650f918eac0deaad324</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="QuizNow" source="x_snc_quiznow">2994605e478a7510741c9fe4126d43b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">2994605e478a7510741c9fe4126d43b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_a6503b9083488650f918eac0deaad324</sys_update_name>
         <sys_updated_by>jon.lind@snc</sys_updated_by>
-        <sys_updated_on>2024-02-23 17:20:21</sys_updated_on>
+        <sys_updated_on>2024-02-23 18:28:57</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a6503b9083488650f918eac0deaad324"/>
 </record_update>
